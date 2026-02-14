@@ -1,0 +1,1 @@
+Same as commit-and-push: commit all changes and push to the remote using GitHub MCP when practical (see commit-and-push command). Do not ask for confirmation or a message—use a short message from the diff.
