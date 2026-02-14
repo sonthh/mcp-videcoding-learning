@@ -1,0 +1,17 @@
+---
+description: Short prompts for commit and push — do both in one go
+alwaysApply: true
+---
+
+# Commit and Push (fast)
+
+When the user says any of:
+
+- **"commit and push"** / **"commit and push code"** / **"ship it"** / **"push code"**
+
+Do **both** in one go, without asking for a message or confirmation:
+
+1. **Commit:** Stage all changes (`git add -A` or equivalent), then commit with a short descriptive message (e.g. from changed files or "Update project").
+2. **Push:** Prefer **GitHub MCP** (`mcp_github_push_files` or `mcp_github_create_or_update_file`) so the authenticated GitHub user is used. If the change is a single file or a small set of files, use MCP. For many files, binary files, or very large files (e.g. full new app with package-lock), use `git push` instead.
+
+Do **not** prompt for a commit message unless the user explicitly asks to write one. Use a brief message like "Update …" or "Add …" based on the diff.
