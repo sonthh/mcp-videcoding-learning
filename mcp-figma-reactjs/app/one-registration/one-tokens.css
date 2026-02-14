@@ -1,0 +1,68 @@
+/* ONE Registration – design tokens (pixel-perfect, 8px grid) */
+
+.one-registration {
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  /* Colors */
+  --one-magenta: #E6007E;
+  --one-magenta-hover: #CC006B;
+  --one-magenta-border: #E6007E;
+  --one-text-primary: #333333;
+  --one-text-secondary: #666666;
+  --one-text-placeholder: #999999;
+  --one-section-title: #1B4D5C;
+  --one-border: #E0E0E0;
+  --one-border-light: #EEEEEE;
+  --one-bg-page: #F2F2F2;
+  --one-bg-white: #FFFFFF;
+  --one-success: #10B981;
+  --one-step-inactive-bg: #E5E5E5;
+  --one-step-inactive-text: #999999;
+  --one-button-outline-text: #6B2D5C;
+  --one-info-icon-bg: #9CA3AF;
+
+  /* Spacing (8px grid) */
+  --one-space-4: 4px;
+  --one-space-8: 8px;
+  --one-space-12: 12px;
+  --one-space-16: 16px;
+  --one-space-24: 24px;
+  --one-space-32: 32px;
+  --one-space-40: 40px;
+  --one-space-48: 48px;
+  --one-space-56: 56px;
+  --one-space-64: 64px;
+
+  /* Typography */
+  --one-font-label: 12px;
+  --one-font-body: 14px;
+  --one-font-nav: 14px;
+  --one-font-section: 18px;
+  --one-font-heading: 20px;
+  --one-font-title: 24px;
+  --one-font-weight-medium: 500;
+  --one-font-weight-semibold: 600;
+  --one-font-weight-bold: 700;
+  --one-line-height-label: 16px;
+  --one-line-height-body: 20px;
+  --one-line-height-heading: 28px;
+  --one-line-height-title: 32px;
+
+  /* Components */
+  --one-header-height: 56px;
+  --one-header-px: 24px;
+  --one-input-height: 40px;
+  --one-input-px: 12px;
+  --one-input-py: 8px;
+  --one-input-border-radius: 4px;
+  --one-input-border: 1px solid var(--one-border);
+  --one-step-circle-size: 40px;
+  --one-card-radius: 8px;
+  --one-card-padding: 32px;
+  --one-button-height: 40px;
+  --one-button-px: 24px;
+  --one-button-radius: 4px;
+  --one-info-icon-size: 16px;
+  --one-gap-form-col: 40px;
+  --one-gap-form-row: 24px;
+  --one-gap-label-input: 8px;
+}
