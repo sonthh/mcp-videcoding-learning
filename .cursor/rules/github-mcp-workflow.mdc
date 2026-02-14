@@ -1,0 +1,15 @@
+---
+description: Use GitHub MCP for push and pull requests instead of git CLI
+alwaysApply: true
+---
+
+# GitHub: Use MCP, Not Git CLI
+
+When the user asks to **push code** or **create/update pull requests**:
+
+- **Do not** run `git push`, `git pull`, or other git remote commands.
+- **Do** use the GitHub MCP tools:
+  - **Push:** `mcp_github_push_files` to push file contents to the repo (or `mcp_github_create_or_update_file` for a single file).
+  - **Pull requests:** `mcp_github_create_pull_request`, `mcp_github_update_pull_request`, `mcp_github_list_pull_requests`, etc.
+
+This uses the authenticated GitHub user from MCP and avoids local git credential issues.
